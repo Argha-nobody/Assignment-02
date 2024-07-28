@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FIRST PAGE STARTS HERE */
+
+.first-page-container
+{
+    font-family: "Inter", sans-serif;
+    width: 1350px;
+    height: 680px;
+    /* border: 2px solid red; */
+    /* gap: 0px;
+    opacity: 0px; */
+    /* background-color: rgba(17, 17, 17, 1); */
+    background-color: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0.075) 100%);
+
+
+}
+
+.first-page-nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 46px;
+    top: 57px;
+    left: 190px;
+    gap: 0px;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left-nav
+{
+    color: rgba(230, 83, 60, 1);
+
+    /* margin: 150px 150px 0px 150px; */
+    
+
+}
+
+.right-nav
+{
+   display: flex;
+   gap: 20px;
+   width: 400px;
+   height: 48px;
+   border: 1px solid rgba(255, 255, 255, 0.281);
+   border-radius: 100px;
+}
+
+.nav-btn-oo
+{
+    width: 92px;
+height: 38px;
+padding: 8px 20px 8px 20px;
+gap: 10px;
+border-radius: 46px;
+background-color: rgba(230, 83, 60, 1);
+border-style: none;
+margin-top: 4px;
+
+
+
+}
+
+.nav-btn-one
+{
+    width: 92px;
+height: 38px;
+padding: 8px 20px 8px 20px;
+gap: 10px;
+border-radius: 46px;
+border-style: none;
+background-color: transparent;
+margin-top: 4px;
+
+}
+
+.first-page-rest
+{
+    display: flex;
+    gap: 60px;
+}
+
+.first-page-desc
+{
+    width: 599.05px;
+  height: 440px;
+  /* border: 2px solid red; */
+  margin-top: 90px;
+  margin-left: 140px;
+}
+
+.single-text
+{
+    font-family: "Playwrite BE VLG", cursive;
+
+}
+
+.first-page-img
+{
+    width: 300px;
+  height: 500px;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+}
+
+.first-img
+{
+    width: 300px;
+    height: 500px;
+}
+
+
+
+.btn-one
+{
+    font-family: "Inter", sans-serif;
+    width: 235px;
+height: 50px;
+padding: 16px 40px 30px 40px;
+/* gap: 20px; */
+border-radius: 42px;
+font-size: 16px;
+border-style: none;
+
+}
+
+.float-one
+{
+    font-family: "Inter", sans-serif;
+  width: 190px;
+  height: 80px;
+  border-radius: 12px;
+  position: relative;
+  left: 750px;
+  bottom: 150px;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.float-two
+{
+    font-family: "Inter", sans-serif;
+  width: 150px;
+  height: 75px;
+  border-radius: 12px;
+  position: relative;
+  left: 950px;
+  bottom: 500px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+
+/* SECTION TWO STARTS HERE */
