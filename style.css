@@ -7,6 +7,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+
+    
+
 }
 
 /* FIRST PAGE STARTS HERE */
@@ -38,11 +42,14 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 50px;
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .left-nav
 {
     color: rgba(230, 83, 60, 1);
+    font-size: 30px;
 
     /* margin: 150px 150px 0px 150px; */
     
@@ -172,3 +179,52 @@ border-style: none;
 
 
 /* SECTION TWO STARTS HERE */
+
+.second-page-container
+{
+    font-family: "Inter", sans-serif;
+    width: 1090px;
+    height: 452px;
+    top: 815px;
+    left: 198px;
+    gap: 58px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 50px;
+
+}
+
+
+.second-page-description
+{
+    text-align: center;
+   
+}
+
+.second-page-description>h1
+{
+   font-size: 37px;
+   margin-bottom: 20px;
+}
+
+.second-page-description>p
+{
+    color: rgba(255, 255, 255, 0.397);
+   margin-bottom: 45px;
+}
+
+.inside-images
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+/* THIRD SECTION BEGINS HERE. */
+
+
+
+
