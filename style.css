@@ -226,6 +226,89 @@ border-style: none;
 
 /* THIRD SECTION BEGINS HERE. */
 
+.third-page-container
+{
+    width: 1060px;
+    height: 371px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 20px;
+}
+
+.third-page-elements
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 34, 34, 1);
+
+}
 
 
+.third-description
+{
+    width: 443px;
+    height: 290px;
+    /* border: 2px solid red; */
+    margin-top:  42px;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.third-description>h1
+{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.third-description>p
+{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+
+
+.third-images
+{
+    width: 366px;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin-top:  38px;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.third-images>img
+{
+    width: 366px;
+    height: 300px;
+    max-height: 100%;
+    object-fit: none;
+    object-position: 66% 30%;
+    border-radius: 20px;
+}
+
+.third-description>button
+{
+    width: 224px;
+  height: 54px;
+   padding: 16px 40px 16px 40px;
+   gap: 10px;
+  border-radius: 42px;
+  background-color: rgba(230, 83, 60, 1);
+  border-style: none;
+  font-size: 18px;
+}
+
+/* FOURTH PAGE STARTS FROM HERE */
+
+.headers-desc
+{
+    font-family: "Inter", sans-serif;
+    margin-top: 40px;
+}
+
+.challenge-section-container
+{
+
+}
 
