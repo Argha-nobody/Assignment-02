@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ASSIGNMENT-02 </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -38,13 +39,15 @@
                 </button>
 
             </div>
+            <div class="for-mobile"> <i class="fa-solid fa-bars" style="color: #ffffff;"></i> </div>
+
         </main>
 
         <div class="first-page-rest">
 
             <div class="first-page-desc">
                 <h1 style="font-size: 65px; margin-bottom: 80px; color: rgba(255, 255, 255, 1);">
-                    Get body in <br> <span class="single-text"> shape </span> & stay <br> healthy
+                    Get body in <br> <span class="single-text"> <i> shape </i> </span> & stay <br> healthy
                 </h1>
                 <p style="color:rgba(255, 255, 255, 0.5); margin-bottom: 40px;">
                     A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
@@ -255,13 +258,22 @@
 
                 <div >
                 <input type="text" placeholder="Age" class="inside-input-boxes-first" >
-                <input type="text" placeholder="Sex" class="inside-input-boxes-first" style="margin-top: 10px" id="one-ony" >
+                <select name="forsex" id="forsex" class="inside-input-boxes-first"    style="margin-top: 10px;">
+                    <option value=""> Sex </option>
+                    <option value=""> Male </option>
+                    <option value=""> Female </option>
+
+                </select>
                 </div>
 
             </div>
 
             <div class="last-field">
-                <input type="text" placeholder="Select an activity factor" class="inside-input-boxes-last" >
+                <select class="inside-input-boxes-last" name="forbox" id="forbox" > 
+                    <option value=""> Select a activity factor </option>
+                    <option value=""> EFGH </option>
+                    <option value=""> IJKL </option> 
+                </select>
             </div>
 
             <button class="calculate-btn"> Calculate </button>
